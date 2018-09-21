@@ -1,0 +1,106 @@
+/* basic css */
+html {
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+/* header */
+header {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem
+}
+
+nav {
+  padding-right: 0.5rem;
+}
+
+nav span {
+  padding-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* main banner */
+
+.container {
+  display: flex;
+  width: 100%;
+  /* align-items: center; */
+
+
+}
+
+.black {
+  background-color: hsl(24, 3%, 74%)
+}
+
+.left-div {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.left-div img {
+    width: 100%;
+}
+
+.right {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* keep practicing part */
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 40%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  line-height: 1.2;
+}
+.flex-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+ #gray-background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: hsl(24, 3%, 74%);
+}
+
+.flex-item img {
+  width: 35%;
+padding: 1rem;
+
+}
+
+/* .description {
+  display: flex;
+  flex-direction: column;
+} */
