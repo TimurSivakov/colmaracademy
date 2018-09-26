@@ -104,6 +104,10 @@ nav a:hover {
     align-items: center;
     justify-content: space-around;
   }
+
+  header nav {
+    display: none;
+  }
 }
 
 /* main banner */
