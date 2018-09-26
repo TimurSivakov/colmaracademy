@@ -4,25 +4,29 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Signika:700" rel="stylesheet" type="text/css">
+  <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Colmar Academy</title>
 </head>
 
-<body>
+<body style='overflow-x:hidden;'>
 
   <!-- HEADER -->
 
   <header>
     <div class="company-logo">
       <img src="./resources/images/ic-logo.svg" alt="">
-      <span>COLMARACADEMY</span>
+      <span><span class="bold">COLMAR</span><span class="transp">ACADEMY</span></span>
     </div>
     <nav>
       <span><a href="#">On Campus</a></span>
       <span><a href="#">Online</a></span>
       <span><a href="#">For companies</a></span>
-      <span><a href="#">Sign in</a></span>
+      <span><a href="#">Sign in <i class="fa fa-sign-in fa-fw fa-lg"></i></a></span>
+
     </nav>
   </header>
 
@@ -45,10 +49,10 @@
         <div class="right">
           <div class="heading1">
             <h1>Learn something<br>new everyday</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="start-here">
-              <a href="#">Start here</a>
-            </div>
+            <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit.</p>
+              <div class="start-here">
+                <a class="start-here" href="#">Start here</a>
+              </div>
           </div>
         </div>
       </div>
@@ -103,7 +107,12 @@
             <div class="content">
               <h3>Software engineering</h3>
               <h4>Courses</h4>
-              <p>Web Development, Modile Development, iOT, APls</p>
+              <ul class="a" role="presentation">
+                <li><span>Web Development</span></li>
+                <li><span>Mobile Development</span></li>
+                <li><span>iOT</span></li>
+                <li><span>APls</span></li>
+              </ul>
             </div>
           </div>
           <div class="item">
@@ -111,7 +120,12 @@
             <div class="content">
               <h3>Computer art</h3>
               <h4>Courses</h4>
-              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              <ul class="a" role="presentation">
+                <li><span>Imaging & Design</span></li>
+                <li><span>Web Design</span></li>
+                <li><span>Motion Graphics & Visual Effects</span></li>
+                <li><span>Computer Animation</span></li>
+              </ul>
             </div>
           </div>
           <div class="item">
@@ -119,7 +133,11 @@
             <div class="content">
               <h3>Design</h3>
               <h4>Courses</h4>
-              <p>User Experience Design, User Research, Visual Design</p>
+              <ul class="a" role="presentation">
+                <li><span>User Experience Design</span></li>
+                <li><span>User Research</span></li>
+                <li><span>Visual Design</span></li>
+              </ul>
             </div>
           </div>
           <div class="item">
@@ -127,7 +145,11 @@
             <div class="content">
               <h3>Data</h3>
               <h4>Courses</h4>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
+              <ul class="a" role="presentation">
+                <li><span>Data Science</span></li>
+                <li><span>Big Data</span></li>
+                <li><span>SQL</span></li>
+                <li><span>Data Visualization</span></li>
             </div>
           </div>
           <div class="item">
@@ -135,7 +157,11 @@
             <div class="content">
               <h3>Business</h3>
               <h4>Courses</h4>
-              <p>Product Development, Business Development, Startup</p>
+              <ul class="a" role="presentation">
+                <li><span>Product Development</span></li>
+                <li><span>Business Development</span></li>
+                <li><span>Startup</span></li>
+              </ul>
             </div>
           </div>
           <div class="item">
@@ -143,7 +169,11 @@
             <div class="content">
               <h3>Marketing</h3>
               <h4>Courses</h4>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
+              <ul class="a" role="presentation">
+                <li><span>Analytics</span></li>
+                <li><span>Content Marketing</span></li>
+                <li><span>Mobile Marketing</span></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -154,21 +184,21 @@
       <div>
         <h2 class="center">Thesis exhibits</h2>
         <div class="container">
-          <div class="left-div">
+          <div class="left-div" id="margin-top">
             <video src="./resources/videos/thesis.mp4" autoplay controls></video>
             <h3 id="thesis">Reimagine urban</h3>
             <p id="thesis">Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique
               ligula.</p>
           </div>
           <div class="flex-container" id="thesis">
-            <div class="flex-item gray-background">
+            <div class="flex-item black">
               <img src="./resources/images/thesis-fisma.jpg" alt="thesis design">
               <div class="description">
                 <h3>Fisma: Design and Prototype</h3>
                 <p>Designer showcase of new prototype product</p>
               </div>
             </div>
-            <div class="flex-item black">
+            <div class="flex-item">
               <img src="./resources/images/thesis-now-and-then.jpg" alt="now and then">
               <div class="description">
                 <h3>Now and then</h3>
